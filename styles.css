@@ -1,0 +1,87 @@
+html{
+    background-color: white;
+    user-select: none;
+}
+
+#controller{
+    position: relative;
+    margin: 30px;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+#container_left{
+width: 200px;
+
+}
+
+label {
+    display: inline;
+    text-align: Center;
+    padding-top: 3%;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  input {
+    display: none;
+  }
+
+input[type="radio"]:checked + label {
+
+}
+
+
+#start_button{
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 5%;
+    bottom: 0;
+    transition: 0.3s;
+    border: 1px solid black;
+    position: relative;
+    top:-140px;
+    background: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#label_input{
+  top:-150px;
+    position: relative;
+    display:inline;
+    height: 3%;
+    width: 80px;
+}
+
+#label_input:hover{
+    color: rgb(37, 73, 179);
+}
+
+#result_box{
+    position: relative;
+    top: -360px;
+    padding: 10px;
+}
+
+#result_text{
+    width: 900px;
+    height: 600px;
+    font-size: 20px;
+}
+#input_text{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  left:190px;
+}
+textarea{
+  resize: none;
+}
